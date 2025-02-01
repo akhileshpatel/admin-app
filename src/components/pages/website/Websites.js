@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import Pagination from './shared/Pagination';
+import Pagination from '../../shared/Pagination';
 import './Websites.css';
 
 const Websites = () => {

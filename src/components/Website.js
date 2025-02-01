@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import styles from './Website.module.css';
+import './Website.css';
 
 const Website = () => {
     const [websites, setWebsites] = useState([]);
@@ -22,7 +22,7 @@ const Website = () => {
     const paginate = pageNumber => setCurrentPage(pageNumber);
 
     return (
-        <div className={styles.websiteContainer}>
+        <div className="website-container">
             <div className="website-container">
                 {currentWebsites.map(website => (
                     <div key={website.id} className="website-block">
