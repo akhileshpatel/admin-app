@@ -1,0 +1,44 @@
+.website-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.website-block {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.status-icon {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.status-icon.active {
+    background-color: green;
+}
+
+.status-icon.inactive {
+    background-color: red;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.pagination span {
+    flex-grow: 1;
+    text-align: center;
+}
